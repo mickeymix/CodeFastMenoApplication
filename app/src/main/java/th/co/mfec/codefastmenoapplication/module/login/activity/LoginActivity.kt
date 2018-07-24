@@ -26,6 +26,10 @@ class LoginActivity : AppCompatActivity(), LoginConstractor.View {
 
     override fun showPasswordError() {
         Toast.makeText(this, "showPasswordError", LENGTH_SHORT).show()
+
+
+
+
     }
 
     override fun startMainActivity() {
